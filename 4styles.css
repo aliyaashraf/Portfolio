@@ -1,0 +1,128 @@
+button{
+  border-radius: 50%;
+  width: 10%;
+
+  float: right;
+  margin-top: 10px;
+  margin-right: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(8, 116, 240);
+  
+  font-family: 'Dancing Script', cursive; 
+
+
+}
+button:link, button:visited, button:focus {
+  background: black;
+}
+  
+button:hover {     
+  background: black;
+}  
+
+a{
+  color: white;
+  width: 50px;
+  font-size: 4rem;
+  
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0; 
+
+}
+
+.header{
+    text-align: center;
+     font-size: 25px;
+     font-family: 'Dancing Script', cursive;
+     -moz-box-shadow:    inset 0 0 10px black;
+      -webkit-box-shadow: inset 0 0 10px black;
+      box-shadow:         inset 0 0 10px black;
+      width: 100;
+      color: black;
+      text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+      background-color:rgb(108, 162, 223);
+     
+      padding: 10px;
+      margin-bottom: 0px;
+    }
+    .split {
+      height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    
+    .left {
+      left: 0;
+    }
+    
+    .right {
+      right: 0;
+    }
+    
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .centered img {
+    
+      width: 40rem;
+      
+    }
+    .container {
+      top: 4rem;
+      position: relative;
+      width: 100%;
+    }
+    
+    .image {
+      display: block;
+      width: 300px;
+      height: 400px;   
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      
+      border-radius: 10%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      box-shadow: 12px 12px 2px 1px black;
+      transition: .5s ease;
+      background-color:rgb(108, 162, 223);
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text {
+        text-shadow: 2px 2px 5px white;
+      color: black;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: left;
+    }

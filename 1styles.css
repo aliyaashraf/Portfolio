@@ -1,0 +1,112 @@
+.gh{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(180, 200, 224);
+  width: 20%;
+  height: 2.3rem;
+  float: left;
+  margin-left: 25%;
+}
+a{
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  
+}
+.li{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(180, 200, 224);
+  width: 20%;
+  height: 2.3rem;
+  display: block;
+  float: right;
+  margin-right: 23%;
+}
+.logo{
+  border-radius: 100%;
+  width: 11.5%;
+ 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(8, 116, 240);
+  
+  font-family: 'Dancing Script', cursive; 
+  float: right; 
+  font-size: 4.5rem;
+}
+.logo:link,.logo:visited, .logo:focus {
+  background: black;
+}
+  
+.logo:hover {     
+  background: black;
+}  
+
+.logo a{
+  color: white;
+ 
+  font-size: 4rem;
+  text-align: top;
+  
+}
+
+body{
+   
+    background-color:#e0ece4;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.header{
+  text-align: center;
+   font-size: 25px;
+    width: 100;
+    color: black;
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+    background-color:rgb(108, 162, 223);
+    font-family: 'Dancing Script', cursive;
+    -moz-box-shadow:    inset 0 0 10px black;
+    -webkit-box-shadow: inset 0 0 10px black;
+    box-shadow:         inset 0 0 10px black;
+    padding: 10px;
+    margin: 0;
+    
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0; 
+  }
+  .left {
+    left: 0; 
+  }
+  .right {
+    right: 0;
+   
+  }
+
+  .mm{
+    margin-top: 5rem;
+    height: 20rem;
+    width: 40rem;
+    text-align:left;
+  font-family: 'Grandstander', cursive;
+  }
+  .centered {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Grandstander', cursive;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 5rem;
+   
+  }
+  
+  .centered img {
+    width: 30rem;
+    height: 30rem;
+  
+  }

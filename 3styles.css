@@ -1,0 +1,100 @@
+button{
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 95%;
+
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(8, 116, 240);
+  font-family: 'Dancing Script', cursive; 
+
+
+}
+button:link, button:visited, button:focus {
+  background: black;
+}
+  
+button:hover {     
+  background: black;
+}  
+
+a{
+  color: white;
+  width: 30%;
+  font-size: 4rem;
+  
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0; 
+
+}
+header{
+    text-align: center;
+     font-size: 25px;
+      width: 100;
+      -moz-box-shadow:    inset 0 0 10px black;
+      -webkit-box-shadow: inset 0 0 10px black;
+      box-shadow:         inset 0 0 10px black;
+      background-color:rgb(108, 162, 223);
+      padding: 10px;
+      margin: 0;
+      color: black;
+      text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+      font-family: 'Dancing Script', cursive;
+  }
+  blockquote {
+  min-height: 3em;
+  margin: 3px;
+  -moz-box-shadow:    inset 0 0 10px black;
+  -webkit-box-shadow: inset 0 0 10px black;
+  box-shadow:         inset 0 0 10px black;
+  padding   : 1em 4em;
+  font      : 1em/150% "Grandstander", cursive;
+  text-shadow: 2px 2px 5px white;
+  position  : relative;
+  width: 60%;
+  background-color:  rgb(98, 191, 235);
+  border-radius: 3%;
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height  : 3rem;
+  float: left;
+  
+  font    : 6rem/100%  "Grandstander", cursive;
+}
+
+blockquote::before {
+    content: '«';
+    
+  top    : 0.3rem;
+  float: left;
+  left   : 0.9rem;
+}
+
+blockquote::after {
+    content: '»';
+  bottom : 0.3rem;
+  float: right;
+  right  : 0.8rem;
+}
+
+blockquote:lang(fr)::before {
+  content: '«';
+  float: right;
+  top    : -1.5rem;
+  left   : 0.5rem;
+}
+
+blockquote:lang(fr)::after {
+  content: '»';
+  bottom : 2.6rem;
+  right  : 0.5rem
+}
+
